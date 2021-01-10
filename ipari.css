@@ -1,0 +1,79 @@
+.profile-card
+{
+    background-color: rgb(252, 229, 161);
+    border-radius: 2px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+    width: 700px;
+    max-width: calc(100vw - 10px);
+}
+
+.cimer
+{
+    width: 100px;
+    height: 125px;
+}
+img 
+{
+   width: 60px;
+   height: 60px;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+}
+
+body 
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: url('hatter.jpg') no-repeat center fixed;
+}
+
+.head, .links
+{
+    text-align: center;
+}
+
+.head, .content 
+{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content
+{
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+
+ul 
+{
+    list-style-type: none;
+}
+
+li
+{
+    display: inline;
+}
+
+.idezet
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.video
+{
+    font-family: fantasy;
+}
+
+.iskola
+{
+    width: 200px;
+    height: 100px;
+}
